@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 import urllib.request
 
-url = 'https://www.lazada.vn//products/i1240264949-s4621963744.html?spm=a2o4n.cart.0.0.4e0a705boaAJQK&urlFlag=true'
+url = 'https://www.lazada.vn//products/i1240264949-s4621963744.html'
 
 def LAZ():
     source = urllib.request.urlopen(url).read()
