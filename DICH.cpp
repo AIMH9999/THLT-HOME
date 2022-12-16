@@ -18,7 +18,7 @@ loop:   printf("\n#Chon kieu nhap((1) la dich tu chu, so va ky tu sang he thap p
                    if(xn!=10)
                       printf("%u ", xn);
                    else 
-				      goto loop;
+		     goto loop;
                }
 // dich từ mã thập phân ASCII sang chữ, số và kí tự 
            case '2':
